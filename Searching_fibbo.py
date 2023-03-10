@@ -35,13 +35,12 @@ def cari():
     for z in range(len(list_nama)):
         if type(list_nama[z]) == list:
             kolomdata = fibo(list_nama[z], nama, len(list_nama[z]))
-            print(nama, "berada di array indenama ke -",z,"kolom",kolomdata)
+            print(nama, "berada di array index ke -",z,"kolom",kolomdata)
             print("")
             return
         else:
             if list_nama[z] == nama:
-                kolomdata = fibo(list_nama[z], nama, len(list_nama[z]))
-                print(nama, "berada di array indenama ke -",z,)
+                print(nama, "berada di array index ke -",z,)
                 print("")
                 return
 
